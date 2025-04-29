@@ -1,0 +1,56 @@
+.principal{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+
+}
+
+.principal
+.rosa{
+    width: auto;
+    height: 400px;
+    color: blue;
+    letter-spacing:1px;
+    background-color: #f8bbd0;
+    font-family: "Gulfs Display", sans-serif;
+    font-size: 35px;
+    align-content: center;
+    text-align: center;
+    border: 1px solid black
+}
+.amarillo{
+    
+    width: auto;
+    height: 400px;
+    letter-spacing:1px;
+    background-color:#fff176;
+    font-family: "Gulfs Display", sans-serif;
+    font-size: 35px;
+    border: 1px solid black
+}
+@font-face {
+    font-family: "Gulfs Display";
+    src: url("GulfsDisplay-Normal.ttf");
+}
+
+.imag{
+    height: 340px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 110px 110px 110px 110px;
+    align-items: center;
+    margin-left: center;
+    margin-right: center;
+
+}
+
+@media (min-width: 768px) {
+    .principal {
+        display: none;
+    }}
+
+@media (min-width: 768px) {
+    .hamburger {
+        display: none;
+    }}
