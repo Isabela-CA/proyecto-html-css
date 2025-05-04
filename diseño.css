@@ -4,7 +4,10 @@
     src: url("GulfsDisplay-Normal.ttf");
 }
 
-
+@font-face{
+    font-family: "Anybody";
+    src: url("Anybody-Italic.ttf");
+}
 
 @media (max-width: 768px) {
     .principal{
@@ -70,7 +73,6 @@
     z-index: 1;
 }
 .logo {
-
     position: absolute;
     top: 50%;
     left: 50%;
@@ -80,17 +82,79 @@
     z-index: 2;
 }
 
-#nosotros{
+/* seccion-2 nosotros */
+#nosotros {
+
     background-color: #fff176;
 }
 
-.fotos{
+.punto, .punto2 {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        margin: 4%;
+        z-index: 1;
+      }
+.punto {
+    left: 0;
+    }
+.punto2 {
+    right: 0;
+    }
+
+.title2{
+    color: transparent;  /* Quita el color de relleno */
+    -webkit-text-stroke: 2px #185eed; /* Crea el borde (ancho y color) */
+    font-size: 400%;
+    font-family: "Anybody", sans-serif;
+    margin: 10%;
+}
+.text{
+    font-size: 200%;
+    font-family: "Anybody", sans-serif;
+    margin: 10%;
+}
+.cuadro1{
+    width: 280px;
+    height: 350px;
+    border: 1px solid black;
+    background-color: #f8bbd0;
+    rotate: -5deg;
+    margin: 10%;
+}
+.cuadro2{
+    position: static;
+    top: 50%;
+    left: 50%;
+    transform: translate(10%, -115%);
+    height: 350px; 
+    width: 280px;
+    border: 1px solid black;
+    background-color: #f8bbd0;
+    rotate: -5deg;
+    margin: 15%;
+    z-index: 2;
+}
+.pareja img{
+    position: static;
+    top: 90%;
+    left: 80%;
+    transform: translate(20%, -380%);
+    height: 300px;
+    width: 400px;
+    rotate: -5deg;
+    margin: 15%;
+    z-index: 3;
+}
+
+/* seccion-3 galeria */
+.fondo{
     width: auto;
     height: 400px;
-    background-color: antiquewhite;
+    background-color: white;
 
 }
-.foto1{
+.fondo1{
     width: auto;
     height: 150px;
     transform: translate(0.5%, 175%); /* vertical y horizontal */
@@ -185,6 +249,8 @@
 #contacto{
     background-color: #f8bbd0;
 }
+
+
 /* @media (min-width: 768px) {
     .hamburger {
         display: none;
